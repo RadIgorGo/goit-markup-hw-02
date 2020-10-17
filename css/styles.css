@@ -65,6 +65,9 @@
   --accent-cl: #2196f3;
   --title-cl: #212121;
   --white: #ffffff;
+  --gray: #2f303a;
+  --pearl: #e5e5e5;
+  --smoke: #f5f4fa;
 }
 
 body {
@@ -75,6 +78,9 @@ body {
   color: var(--main-text-cl);
 }
 
+.bg-header {
+  background-color: var(--white);
+}
 .logo {
   font-family: "Raleway", sans-serif;
   font-style: normal;
@@ -110,7 +116,6 @@ body {
   text-align: center;
   letter-spacing: 0.06em;
   color: var(--white);
-  background-color: #2f303a;
 }
 
 .little-name {
@@ -145,6 +150,23 @@ body {
   letter-spacing: 0.06em;
   color: var(--white);
   background-color: var(--accent-cl);
+}
+.bt-works {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.63;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--title-cl);
+  background-color: var(--smoke);
+}
+.bt-works:hover,
+.bt-works:focus {
+  color: var(--white);
+  background-color: var(--accent-cl);
+  cursor: pointer;
 }
 
 .styles-name {
@@ -186,8 +208,14 @@ body {
   color: var(--main-text-cl);
 }
 
-footer {
-  background-color: #2f303a;
+.gray-wall {
+  background-color: var(--gray);
+}
+.pearl-wall {
+  background-color: var(--pearl);
+}
+.smoke-wall {
+  background-color: var(--smoke);
 }
 address {
   font-family: "Roboto", sans-serif;
@@ -197,4 +225,35 @@ address {
   letter-spacing: 0.03em;
 
   color: var(--white);
+}
+.cl-link {
+  color: #ffffff99;
+}
+
+.project-name {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--title-cl);
+}
+
+.app-name {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+  color: var(--main-text-cl);
+}
+
+.list {
+  list-style: none;
+}
+.list-app {
+  list-style: none;
+  background-color: var(--white);
 }
