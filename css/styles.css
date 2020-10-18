@@ -96,6 +96,9 @@ body {
 .part-logo2 {
   color: var(--white);
 }
+.link-logo {
+  text-decoration: none;
+}
 .link {
   color: inherit;
   text-decoration: none;
@@ -217,7 +220,7 @@ body {
 .smoke-wall {
   background-color: var(--smoke);
 }
-address {
+.address {
   font-family: "Roboto", sans-serif;
   font-style: normal;
   font-size: 14px;

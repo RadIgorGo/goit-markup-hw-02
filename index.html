@@ -4,13 +4,14 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>WebStudio</title>
+    <link rel="stylesheet" href="./css/normalize.css">
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/styles.css">
   </head>
   <body>
     <header class="bg-header">
       <nav>
-        <p class="logo">Web<span class="part-logo1">Studio</span></p>
+        <a href="./index.html" class="link-logo"><p class="logo">Web<span class="part-logo1">Studio</span></p></a>
         <ul class="list">
           <li><a href="./index.html"  class="link-menu"> <span class="default-page">Студия</span></a></li>
           <li><a href="./portfolio.html" class="link-menu"> Портфолио</a></li>
@@ -110,8 +111,10 @@
         </ul>
       </section>
       <footer class="gray-wall">
-        <p class="logo"><span class="part-logo2">Web</span>Studio</p>
+        <a href="./index.html" class="link-logo">
+          <p class="logo"><span class="part-logo2">Web</span>Studio</p></a>
         <address id="contacts">
+          <div class="address">
           <ul class="list">
             <li>
               <a
@@ -125,6 +128,7 @@
             <li class="cl-link"><a href="mailto:info@devstudio.com" class="link">info@devstudio.com</a></li>
             <li class="cl-link"><a href="tel:+380961111111" class="link">+38 096 111 11 11</a></li>
           </ul>
+          </div>
         </address>
       </footer>
     </main>
